@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Street Shop</title>
+  <link rel="stylesheet" type="text/css" href="css/estilos_index.css">
+</head>
+<body>
+
+  <!-- Logo estilo Box Logo Supreme -->
+  <div class="logo-box-container">
+    <span class="logo-box">STREET SHOP</span>
+  </div>
+
+  <form action="index_admin.html">
+    <label>seleccione su Tipo de Documento:</label>
+    <br><br>
+    <select name="grupo-campo">
+      <option value="C.C">Cedula de Ciudadania</option>
+      <option value="C.E">Cedula de Extranjeria</option>
+      <option value="T.I">Tarjeta de Identidad</option>
+    </select>
+
+    <br><br>
+    <label>ingrese su ID:</label>
+    <br><br>
+    <input type="number" name="id_usu" required>
+
+    <br><br>
+    <label>Ingrese su Password:</label>
+    <br><br>
+    <input type="password" name="pas_usu" required>
+
+    <br><br>
+    <input class="ing_t1" type="submit" value="Ingresar">
+    <br><br>
+    <a href="olvide_password.html" class="boton-volver">Olvide mi contraseña</a>
+  </form>
+
+</body>
+</html>
